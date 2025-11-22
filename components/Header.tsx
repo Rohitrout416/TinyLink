@@ -22,7 +22,7 @@ export function Header() {
 
                     <nav className="flex items-center space-x-4">
                         <a
-                            href="https://github.com/Rohitrout416"
+                            href="https://github.com/Rohitrout416/TinyLink/tree/main"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="
