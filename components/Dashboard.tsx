@@ -14,7 +14,7 @@ export function Dashboard({ initialLinks }: DashboardProps) {
     const [links, setLinks] = useState<Link[]>(initialLinks)
     const [search, setSearch] = useState('')
 
-    // Poll for updates every 5 seconds
+    // Poll for updates every 30 seconds
     useEffect(() => {
         const interval = setInterval(async () => {
             try {
